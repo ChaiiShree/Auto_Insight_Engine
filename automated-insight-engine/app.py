@@ -13,6 +13,7 @@ from src.processing.data_processor import DataProcessor
 from src.processing.anomaly_detector import AnomalyDetector
 from src.analysis.ai_analyzer import AIAnalyzer
 from src.reporting.pdf_generator import PDFGenerator
+from src.config import Config
 
 # Page config
 st.set_page_config(
@@ -267,7 +268,7 @@ with col1:
     """)
 
 with col2:
-    sample_path = Path("data/sample_data.csv")
+    sample_path = Path("automated-insight-engine/data/sample_data.csv")
     if sample_path.exists():
         with open(sample_path, "rb") as f:
             st.download_button(
