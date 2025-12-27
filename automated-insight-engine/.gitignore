@@ -10,7 +10,6 @@ __pycache__/
 # Data
 *.db
 *.sqlite
-data/sample_data.csv
 
 # IDE
 .vscode/
