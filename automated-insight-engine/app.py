@@ -113,11 +113,12 @@ if uploaded_file is not None:
         try:
             start_time = time.time()
             
-            # Save file
+            # Save file using Config paths
             status_text.text("📥 Saving file...")
             progress_bar.progress(10)
-            input_path = Path("data/input") / uploaded_file.name
-            input_path.parent.mkdir(parents=True, exist_ok=True)
+            
+            # Use the directory defined in Config
+            input_path = Config.INPUT_DIR / uploaded_file.name
             uploaded_file.seek(0)
             input_path.write_bytes(uploaded_file.read())
             
