@@ -2,9 +2,10 @@
 
 > **Event-driven data pipeline that converts raw CSV logs into executive-ready PDF reports with AI-generated narratives in under 12 seconds.**
 
+### 🌐 [**Click here to view all project details →**](https://autoinsightengine.streamlit.app/)
+
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Hackathon](https://img.shields.io/badge/GT_Hackathon-2025-orange.svg)](https://github.com)
 
 ## 🎯 Problem Statement
 
