@@ -268,7 +268,7 @@ with col1:
     """)
 
 with col2:
-    sample_path = Path("automated-insight-engine/data/sample_data.csv")
+    sample_path = Path("data/sample_data.csv")
     if sample_path.exists():
         with open(sample_path, "rb") as f:
             st.download_button(
